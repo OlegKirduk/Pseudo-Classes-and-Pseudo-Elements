@@ -41,3 +41,54 @@ img{vertical-align: top;}
 h1,h2,h3,h3,h5,h6{font-size: inherit; font-weight: 400;}
 
 /*работа над проектом*/
+
+body{
+    padding: 30px;
+    background: rgb(213,206,166);
+background: -moz-linear-gradient(top,  rgb(213,206,166) 0%, rgb(201,193,144) 40%, rgb(183,173,112) 100%);
+background: -webkit-linear-gradient(top,  rgb(213,206,166) 0%,rgb(201,193,144) 40%,rgb(183,173,112) 100%);
+background: linear-gradient(to bottom,  rgb(213,206,166) 0%,rgb(201,193,144) 40%,rgb(183,173,112) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 );
+
+}
+
+.block{
+    margin: 0 0 30px 0;
+}
+.block p{
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
+
+.link{
+    color: rgb(153, 39, 39);
+}
+
+.textinput{
+    border: 1px solid rgb(153, 39, 39);
+    height: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+    width: 300px;
+    margin: 0 0 10px 0;
+    border-radius: 15px;
+}
+
+.textbutton{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(153, 39, 39);
+    border-radius: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: white;
+    margin: 0 0 30px 0;
+}
+
+.list li{
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
