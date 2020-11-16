@@ -105,6 +105,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
     color: white;
     margin: 0 0 30px 0;
 }
+.textbutton:hover{
+    background-color: white;
+    color: rgb(153, 39, 39);
+    border: 1px solid rgb(153, 39, 39);
+}
+.textbutton:active{
+    color: red;
+    background-color: grey;
+}
 
 .list li{
     font-size: 18px;
