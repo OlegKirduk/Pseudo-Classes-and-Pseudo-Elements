@@ -149,3 +149,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
 .list li:after {
     content: "☣";
 }
+
+.list li:hover::before {
+    color: brown;
+}
+.list li:hover::after {
+    color: brown;
+}
