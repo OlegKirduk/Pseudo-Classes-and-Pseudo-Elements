@@ -76,6 +76,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
     text-decoration: underline;
     color: yellow;
 }
+.link:active{
+    color:red;
+}
 
 .textinput{
     border: 1px solid rgb(153, 39, 39);
@@ -85,6 +88,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
     width: 300px;
     margin: 0 0 10px 0;
     border-radius: 15px;
+}
+.textinput:focus{
+    box-shadow: 0 0 10px  rgb(153, 39, 39);
 }
 
 .textbutton{
