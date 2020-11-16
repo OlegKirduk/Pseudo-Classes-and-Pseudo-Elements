@@ -141,3 +141,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
 .list li:last-child{
     color: green;
 }
+
+.list li:before {
+    content: "☣";
+}
+
+.list li:after {
+    content: "☣";
+}
