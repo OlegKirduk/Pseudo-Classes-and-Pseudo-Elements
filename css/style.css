@@ -55,6 +55,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
 .block{
     margin: 0 0 30px 0;
 }
+.block:first-line{
+    color: olive;
+}
+.block:first-letter{
+    font-size: 30px;
+    color: red;
+}
 
 .block:hover {
     background: rgb(153, 39, 39);
@@ -76,7 +83,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
     color: rgb(41, 41, 223);
 }
 .link:visited{
-    color: olive;
+    color: purple;
 }
 .link:hover {
     text-decoration: underline;
