@@ -65,6 +65,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', end
     line-height: 24px;
     margin: 0 0 20px 0;
 }
+.block p:nth-child(odd){
+    text-transform: uppercase;
+}
+.block p:nth-child(even){
+    text-transform: capitalize;
+}
 
 .link{
     color: rgb(41, 41, 223);
